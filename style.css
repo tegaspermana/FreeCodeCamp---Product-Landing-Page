@@ -1,0 +1,54 @@
+body {
+    height: 1000px;
+    background-color: #ececec;
+    font-family: 'Lora', serif
+}
+
+#nav-bar {
+    background-color: hsla(0, 0%, 100%, 0.75);
+}
+
+.navbar-brand img {
+    width: 40px;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.carousel-caption h1 {
+    background-color: hsla(0, 0%, 0%, 0.5);
+    color: white;
+}
+
+.pricing {
+    background-color: #e3f6f5;
+}
+
+.video-container {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.video-container::after {
+    padding-top: 56.25%;
+    display: block;
+    content: '';
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.footer {
+    text-align: center;
+    font-size: 12px;
+}
